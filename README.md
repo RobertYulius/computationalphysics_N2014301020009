@@ -1,6 +1,4 @@
-# computationalphysics_N2014301020009
-
-Work list:
+# Work list
 
 [Exercise_01]
 
