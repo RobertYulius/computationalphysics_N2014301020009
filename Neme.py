@@ -1,5 +1,5 @@
 import time
-#用字符画的方式<del>虚区<del>输出自己的名字，逐行打印并添加延迟。
+#用字符画的方式<del>虚区<del>输出自己的名字(Lu Jiangwei)，逐行打印并添加延迟。
 print' gga'
 time.sleep(0.5)
 print' ggg                           eg   ae                                                                eg'
