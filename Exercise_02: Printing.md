@@ -9,7 +9,7 @@
 ## Codes
 
 
-### **python 3** version
+### **Python 3** version
 
  
 ```
@@ -71,7 +71,7 @@ print('                                                                         
 #coding:utf-8
 
 import time
-#用字符画的方式<del>虚区<del>输出自己的名字，逐行打印并添加延迟。 Coding with Python 2.7
+#用字符画的方式<del>虚区</del>输出自己的名字，逐行打印并添加延迟。 Coding with Python 2.7
 print(' gga')
 time.sleep(0.5)
 print(' ggg                           eg   ae                                                                eg')
@@ -116,10 +116,10 @@ print('                                                                         
 
  ```
 
-## Something else: `python 3` and `python 2.7`?
+## Something else: `Python 3` or `Python 2.7`?
 
- 
-In `Python 2.7`, both `print` and `print()` works with no difference. We can see this feature in [Wikipedia][1]:
+For some reason, `print` function is replaced by `print()` in `Python 3` and newer version.  
+However, in `Python 2.7`, both `print` and `print()` works with no difference. We can see this feature in [Wikipedia][1]:
 
 > `Python 3.0`的变化主要在以下几个方面[13]：
 >
@@ -129,5 +129,10 @@ In `Python 2.7`, both `print` and `print()` works with no difference. We can see
 >print ("fish") #注意print后面有个空格
 >print("fish") #print()不能带有任何其它参数
 >```
+
+Firstly, I chose the newer version simply because it's newer. But when I acknowledged that many science and calculating modules only worked on `Python 2`, I turned to the older version <del>with tears</del>.  
+Now I find that modules are also updated to support the newest version.I know it's time to return to `Python 3`.
+
+Oh, just take a rest, Python 2.
 
 [1]:https://zh.wikipedia.org/zh-cn/Python#Python_3.0
