@@ -9,7 +9,7 @@
 ## Codes
 
 
-### python 3 version
+### **python 3** version
 
  
 ```
@@ -64,7 +64,7 @@ print('                                                                         
 #                                                                                          Made by N
 ```
 
-### Python 2.7 version
+### **Python 2.7** version
 
  
  ```
@@ -116,14 +116,14 @@ print('                                                                         
 
  ```
 
-## Something else: python 3 and python 2.7?
+## Something else: `python 3` and `python 2.7`?
 
  
-In Python 2.7, both 'print' and 'print()' works with no difference. We can see this feature in [Wikipedia][1]:
+In `Python 2.7`, both `print` and `print()` works with no difference. We can see this feature in [Wikipedia][1]:
 
-> Python 3.0的变化主要在以下几个方面[13]：
+> `Python 3.0`的变化主要在以下几个方面[13]：
 >
-> - print语句没有了，取而代之的是print()函数。可以使用2to3工具来自动转换。Python 2.6与Python 2.7部分地支持这种形式的print语法。在Python 2.6与Python 2.7里面，以下三种形式是等价的：
+> - `print`语句没有了，取而代之的是`print()`函数。可以使用`2to3`工具来自动转换。`Python 2.6`与`Python` 2.7部分地支持这种形式的print语法。在Python 2.6与Python 2.7里面，以下三种形式是等价的：
 >```
 >print "fish"
 >print ("fish") #注意print后面有个空格
