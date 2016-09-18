@@ -4,7 +4,7 @@
 ---
 
 - [x] [Exercise_01](http://127.0.0.1:8085/)
-- [ ] [Exercise_02: Print Name](https://github.com/lostpg/computationalphysics_N2014301020009/blob/master/Neme.py)
+- [x] [Exercise_02: Print Name](https://github.com/lostpg/computationalphysics_N2014301020009/blob/master/Exercise_02:%20Printing.md)
 - [ ] [Exercise_03]()
 - [ ] [Exercise_04]()
 - [ ] [Exercise_05]()
