@@ -4,8 +4,8 @@ Exercise_03
 
 ### Abstract
 ---
-1. [Work1](https://github.com/lostpg/computationalphysics_N2014301020009/blob/master/Exercise_03:%20Get%20Moving!.md#work1): Make the letters typed in start to move.
-2. [Work2](https://github.com/lostpg/computationalphysics_N2014301020009/blob/master/Exercise_03:%20Get%20Moving!.md#work-2): Draw something in 80*80 dot matrix, then make them retate!
+1. [Work1](https://github.com/lostpg/computationalphysics_N2014301020009/blob/master/Exercise_03:%20Get%20Moving!.md#work-1pure-code): Make the letters typed in start to move.
+2. [Work2](https://github.com/lostpg/computationalphysics_N2014301020009/blob/master/Exercise_03:%20Get%20Moving!.md#work-2pure-code): Draw something in 80*80 dot matrix, then make them retate!
 
 ### Background
 ---
@@ -19,7 +19,7 @@ i = os.system('clear')# Under Mac OS/Linux
 
 ### Codes
 ---
-#### Work1[`Pure Code`](https://github.com/lostpg/computationalphysics_N2014301020009/blob/master/EX_03.py)
+#### Work 1[`Pure Code`](https://github.com/lostpg/computationalphysics_N2014301020009/blob/master/EX_03.py)
 ---
 
 ![EX_03_1](https://github.com/lostpg/computationalphysics_N2014301020009/blob/master/EX_03.gif)
