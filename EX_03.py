@@ -8,13 +8,14 @@ import os, time
 # 1|_|_|_|_|_|  低位表示0~3，高位为4~7行的阵点，自下而上打印 ‘0’
 # 2|_|_|_|_|_|  和 ‘1’ 对应的字符。
 # 3|_|_|_|_|_|  ASC 列表为ASC II 字符对应点阵的参数。
-# 4|_|_|_|_|_|
+# 4|_|_|_|_|_|  使用Python 3。
 # 5|_|_|_|_|_|
 # 6|_|_|_|_|_|
 # 7|_|_|_|_|_|
 #   0 1 2 3 4
 
-ASC = [0x00, 0x00, 0x00, 0x00, 0x00,# ' '
+ASC = [
+        0x00, 0x00, 0x00, 0x00, 0x00,# ' '
         0x00, 0x00, 0x5F, 0x00, 0x00,# !
         0x00, 0x07, 0x00, 0x07, 0x00,# "
         0x14, 0x7F, 0x14, 0x7F, 0x14,# #
@@ -74,7 +75,7 @@ ASC = [0x00, 0x00, 0x00, 0x00, 0x00,# ' '
         0x03, 0x04, 0x78, 0x04, 0x03,# Y
         0x61, 0x51, 0x49, 0x45, 0x43,# Z
         0x00, 0x00, 0x7F, 0x41, 0x41,# [
-        0x02, 0x04, 0x08, 0x10, 0x20,# "\"
+        0x02, 0x04, 0x08, 0x10, 0x20,# '\'
         0x41, 0x41, 0x7F, 0x00, 0x00,# ]
         0x04, 0x02, 0x01, 0x02, 0x04,# ^
         0x40, 0x40, 0x40, 0x40, 0x40,# _
@@ -114,21 +115,21 @@ ASC = [0x00, 0x00, 0x00, 0x00, 0x00,# ' '
 
 def screen(st):
     l = []
-    OSName = os.name
-    for a in range(10):
+    OSName = os.name  #判断系统类型以使用适当清屏命令
+    for a in range(10):  #字符串将运动10次
         if str(OSName) == 'nt': #清屏
             os.system('cls')
         elif str(OSName) == 'posix':
             os.system('clear')
 
-        for b in range(a):
+        for b in range(a):  #向下运动
             print(' ')
         for i in range(7):  # 按行打印
             for b in range(a):
-                l.append(' ')
-            for c in range(len(st)):
-                for d in range(5):
-                    if (ASC[(ord(st[c]) - 32) * 5 + d] >> (i) & 1):
+                l.append(' ')#横向运动
+            for c in range(len(st)):#逐字扫描
+                for d in range(5):#每个字按点阵列扫描
+                    if (ASC[(ord(st[c]) - 32) * 5 + d] >> (i) & 1):#What the f**k?
                         l.append('#')
                     else:
                         l.append(' ')
@@ -140,8 +141,7 @@ def screen(st):
 
 input_ = input('Type what you want( ASC II codes only!):\n')
 
-try:
+try:  #判断输入是否可以输出，不能则输出‘Made by N’。
     screen(input_)
 except IndexError:
     screen('Made by N.')
-
