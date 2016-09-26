@@ -181,6 +181,9 @@ except IndexError:
 ---
 ![EX_03_2](https://github.com/lostpg/computationalphysics_N2014301020009/blob/master/EX_03_2.gif)
 ```
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import os, time
 
 a = ('  wwwwwwww  \n')
