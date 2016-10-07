@@ -1,7 +1,7 @@
 Exercise_03 : A First Numerical Problem
 -
 
-[TOC]
+
 
 ### Abstract
 ---
@@ -117,7 +117,9 @@ eg2.store_results()
 
 
 ###Acknowledgements!
+
 - http://stackoverflow.com/questions/13207450/permissionerror-errno-13-in-python
 
 - http://www.cnblogs.com/allenblogs/archive/2010/09/13/1824842.htm
+
 > Written with [StackEdit](https://stackedit.io/).
