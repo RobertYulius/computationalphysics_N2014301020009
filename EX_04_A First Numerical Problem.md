@@ -14,11 +14,11 @@ Use `Python` to solve a simple numerical problem: `Radioactive Decay`.
 #### Radioactive Decay
  - A large number of nuclei:
  <br/><img src="http://latex.codecogs.com/gif.latex?\frac{dN}{dt}=-\frac{N}{\tau}" alt="" title="" /><br/>
- - The Taylor expansion for <img src="http://latex.codecogs.com/gif.latex?N%28t%29"" title="" />:
+ - The Taylor expansion for <img src="http://latex.codecogs.com/gif.latex?N%28t%29" title="" />:
 <br/><img src="http://latex.codecogs.com/gif.latex?N%28%5CDelta%20t%29%3DN%280%29&plus;%5Cfrac%7BdN%7D%7Bdt%7D%5Ccdot%5CDelta%20t&plus;%5Cfrac%7B1%7D%7B2%7D%5Ccdot%5Cfrac%7Bd%5E2N%7D%7Bdt%5E2%7D&plus;..." alt="" title="" /> <br/>
- - Ignore the terms that involve second and higher powers of ![](http://latex.codecogs.com/gif.latex?%5CDelta%20t" alt="" title=""):
+ - Ignore the terms that involve second and higher powers of ![](http://latex.codecogs.com/gif.latex?%5CDelta%20t):
   <br/> ![](http://latex.codecogs.com/gif.latex?N%28%5CDelta%20t%29%5Capprox%20N%280%29&plus;%5Cfrac%7BdN%7D%7Bdt%7D%5Ccdot%5CDelta%20t) <br/>
- - Than
+ - Then
  <br/> ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7BdN%7D%7Bdt%7D%3D%5Clim_%7B%5CDelta%20t%5Crightarrow%200%7D%5Cfrac%7BN%28t&plus;%5CDelta%20t%29-N%28t%29%7D%7B%5CDelta%20t%7D%5Capprox%20%5Cfrac%7BN%28t&plus;%5CDelta%20t%29-N%28t%29%7D%7B%5CDelta%20t%7D) <br/>
  ![](http://latex.codecogs.com/gif.latex?N%28t&plus;%5CDelta%20t%29%5Capprox%20N%28t%29&plus;%5Cfrac%7BdN%7D%7Bdt%7D%5Ccdot%5CDelta%20t) <br/>
  - So
